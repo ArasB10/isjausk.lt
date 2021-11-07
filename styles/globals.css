@@ -1,16 +1,28 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+.w3-row-padding img {
+  margin-bottom: 12px;
+}
+.bgimg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("/w3images/profile_girl.jpg");
+  min-height: 100%;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.closed {
+  display: none;
 }
 
-* {
-  box-sizing: border-box;
+.opened {
+  display: block;
+  width: 60%;
 }
