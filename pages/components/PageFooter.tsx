@@ -15,6 +15,7 @@ const PageFooter = () => {
         <a
           href="https://www.w3schools.com/w3css/default.asp"
           target="_blank"
+          rel="noreferrer"
           className="w3-hover-text-green"
         >
           w3.css
